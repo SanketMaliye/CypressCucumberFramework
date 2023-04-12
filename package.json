@@ -1,0 +1,21 @@
+{
+  "name": "cypress-bdd-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run --spec cypress\\e2e\\Login.feature"
+  },
+  "keywords": [],
+  "author": "Sanket Maliye",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^12.8.1"
+  },
+  "devDependencies": {
+    "@cypress/xpath": "^2.0.3",
+    "cypress-iframe": "^1.0.1"
+  }
+}
